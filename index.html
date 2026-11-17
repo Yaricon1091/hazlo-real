@@ -4,20 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hazlo Real — De la idea a la realidad</title>
-  <meta name="description" content="Asesoría y acompañamiento para micro y pequeños emprendedores: marca, redes, web y finanzas.">
+  <meta name="description" content="Asesoría de negocios para micro y pequeños emprendedores, con paquetes opcionales de marca, redes y web.">
   <meta name="theme-color" content="#11294b">
-  <link rel="icon" href="assets/logo.png">
+  <link rel="icon" type="image/png" href="./logo.png">
+  <link rel="apple-touch-icon" href="./logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hazlo Real — De la idea a la realidad">
+  <meta property="og:description" content="Asesoría de negocios para micro y pequeños emprendedores. Plática inicial gratis.">
+  <meta property="og:locale" content="es_MX">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="top">
     <a class="brand" href="#inicio" aria-label="Hazlo Real, inicio">
-      <img id="logo" src="assets/logo.png" alt="" width="46" height="46">
+      <img id="logo" src="./logo.png" alt="" width="46" height="46">
       <span><b id="brand-name"></b><small id="brand-lema"></small></span>
     </a>
     <nav>
+      <a href="#asesoria">Asesoría</a>
+      <a href="#paquetes">Paquetes</a>
       <a href="#servicios">Servicios</a>
-      <a href="#proceso">Cómo trabajamos</a>
       <a href="#dudas">Dudas</a>
       <a href="#contacto" class="btn small">Contacto</a>
     </nav>
@@ -32,10 +38,10 @@
           <p class="lead" id="hero-text"></p>
           <div class="actions left">
             <a class="btn" id="hero-cta" target="_blank" rel="noopener"></a>
-            <a class="btn outline" id="hero-cta2" href="#servicios"></a>
+            <a class="btn outline" id="hero-cta2" href="#asesoria"></a>
           </div>
         </div>
-        <img class="seal" src="assets/logo-completo.png" alt="Sello de Hazlo Real: asesoría y acompañamiento" width="420" height="420">
+        <img class="seal" src="./logo-completo.png" alt="Sello de Hazlo Real: asesoría y acompañamiento" width="420" height="420">
       </div>
     </section>
 
@@ -49,7 +55,35 @@
       </div>
     </section>
 
-    <section id="servicios" class="section alt">
+    <section id="diferente" class="section alt">
+      <div class="wrap">
+        <h2 id="dif-title"></h2>
+        <p class="sub" id="dif-text"></p>
+        <div class="compare">
+          <div class="col a"><h3 id="dif-a-t"></h3><ul id="dif-a"></ul></div>
+          <div class="col b"><h3 id="dif-b-t"></h3><ul id="dif-b"></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="asesoria" class="section">
+      <div class="wrap">
+        <h2 id="ase-title"></h2>
+        <p class="sub" id="ase-text"></p>
+        <div class="grid four" id="planes"></div>
+      </div>
+    </section>
+
+    <section id="paquetes" class="section alt">
+      <div class="wrap">
+        <h2 id="paq-title"></h2>
+        <p class="sub" id="paq-text"></p>
+        <div class="grid" id="paq-grid"></div>
+        <p class="note" id="paq-nota"></p>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
       <div class="wrap">
         <h2 id="serv-title"></h2>
         <p class="sub" id="serv-text"></p>
@@ -57,21 +91,21 @@
       </div>
     </section>
 
-    <section id="proceso" class="section">
+    <section id="proceso" class="section alt">
       <div class="wrap">
         <h2 id="pasos-title"></h2>
         <ol class="steps" id="pasos"></ol>
       </div>
     </section>
 
-    <section id="testimonios" class="section alt" hidden>
+    <section id="testimonios" class="section" hidden>
       <div class="wrap">
         <h2 id="test-title"></h2>
         <div class="grid" id="test-grid"></div>
       </div>
     </section>
 
-    <section id="dudas" class="section">
+    <section id="dudas" class="section alt">
       <div class="wrap narrow">
         <h2 id="faq-title"></h2>
         <div id="faq"></div>
@@ -91,6 +125,9 @@
     </section>
   </main>
 
+  <noscript>
+    <p style="padding:24px;text-align:center;font-family:sans-serif">Hazlo Real — De la idea a la realidad. Para ver esta página activa JavaScript en tu navegador o escríbenos por WhatsApp.</p>
+  </noscript>
   <footer><p id="foot"></p></footer>
   <a class="wa-float" id="wa-float" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">💬 <span>WhatsApp</span></a>
 
